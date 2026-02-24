@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savoria | Culinary Excellence</title>
+    <meta name="description"
+        content="Discover premium culinary experiences with Savoria. Fresh ingredients, masterful chefs, and a passion for food.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container container">
+            <a href="#" class="logo">Savoria<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn btn-outline" id="bookBtn">Book a Table</button>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content container reveal">
+            <h1>Taste the Art of <span class="highlight">Fine Dining</span></h1>
+            <p>Experience a symphony of flavors crafted with passion, using only the freshest seasonal ingredients.</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                <a href="#about" class="btn btn-secondary">Our Story</a>
+            </div>
+        </div>1
+        <div class="hero-overlay"></div>
+    </header>
+
+    <!-- Features / About Section -->
+    <section id="about" class="features section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Why Choose Us</h2>
+                <p>We blend tradition with innovation to bring you an unforgettable culinary journey.</p>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card reveal" style="transition-delay: 0.1s">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                        </svg>
+                    </div>
+                    <h3>Premium Ingredients</h3>
+                    <p>Sourced locally from sustainable farms ensuring the highest quality and freshness in every bite.
+                    </p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card reveal" style="transition-delay: 0.2s">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m2 22 1-1h3l9-9" />
+                            <path d="M3 21v-3l9-9" />
+                            <path
+                                d="m15 6 3.4-3.4a2.1 2.1 0 1 1 3 3L18 9l.4.4a2.1 2.1 0 1 1-3 3l-3.8-3.8a2.1 2.1 0 1 1 3-3l.4.4Z" />
+                        </svg>
+                    </div>
+                    <h3>Master Chefs</h3>
+                    <p>Our renowned culinary team crafts exquisite dishes that push the boundaries of flavor.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card reveal" style="transition-delay: 0.3s">
+                    <div class="icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                        </svg>
+                    </div>
+                    <h3>Impeccable Safety</h3>
+                    <p>We adhere to the strictest hygiene standards to provide a safe and pristine dining environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section bg-light">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Our Signature Dishes</h2>
+                <p>A curated selection of our most beloved creations.</p>
+            </div>
+            <div class="menu-grid">
+                <!-- Dish 1 -->
+                <div class="menu-card reveal" style="transition-delay: 0.1s">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop"
+                            alt="Healthy Bowl">
+                        <div class="price">$24</div>
+                    </div>
+                    <div class="menu-content">
+                        <h3>Vitality Bowl</h3>
+                        <p>Quinoa, roasted sweet potatoes, fresh avocado, and our signature tahini dressing.</p>
+                        <button class="btn btn-text">Order Now &rarr;</button>
+                    </div>
+                </div>
+                <!-- Dish 2 -->
+                <div class="menu-card reveal" style="transition-delay: 0.2s">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=800&auto=format&fit=crop"
+                            alt="Artisan Pizza">
+                        <div class="price">$28</div>
+                    </div>
+                    <div class="menu-content">
+                        <h3>Truffle Mushroom Pizza</h3>
+                        <p>Wood-fired crust topped with wild mushrooms, truffle oil, and fior di latte mozzarella.</p>
+                        <button class="btn btn-text">Order Now &rarr;</button>
+                    </div>
+                </div>
+                <!-- Dish 3 -->
+                <div class="menu-card reveal" style="transition-delay: 0.3s">
+                    <div class="menu-image">
+                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=800&auto=format&fit=crop"
+                            alt="Premium Steak">
+                        <div class="price">$45</div>
+                    </div>
+                    <div class="menu-content">
+                        <h3>Wagyu Ribeye</h3>
+                        <p>Perfectly seared A5 Wagyu, served with garlic herb butter and rosemary roasted baby potatoes.
+                        </p>
+                        <button class="btn btn-text">Order Now &rarr;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center reveal" style="margin-top: 3rem;">
+                <button class="btn btn-primary">View Full Menu</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta" class="cta section">
+        <div class="container cta-container reveal">
+            <h2>Ready for an unforgettable experience?</h2>
+            <p>Reserve your table today and let us treat you to a masterclass in gastronomy.</p>
+            <button class="btn btn-primary btn-large">Make a Reservation</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">Savoria<span>.</span></a>
+                <p>Elevating the art of dining, one plate at a time. Join us for a journey of culinary discovery.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>123 Culinary Blvd, Food City, CA 90210</p>
+                <p>hello@savoria.com</p>
+                <p>+1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Savoria. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Select a Table</h2>
+            <div class="table-grid">
+                <div class="table-item available" data-table="1">Table 1<br><span>2 Seats (Window)</span></div>
+                <div class="table-item available" data-table="2">Table 2<br><span>2 Seats</span></div>
+                <div class="table-item occupied" data-table="3">Table 3<br><span>4 Seats</span></div>
+                <div class="table-item available" data-table="4">Table 4<br><span>4 Seats (Booth)</span></div>
+                <div class="table-item available" data-table="5">Table 5<br><span>6 Seats</span></div>
+                <div class="table-item occupied" data-table="6">Table 6<br><span>8 Seats (Private)</span></div>
+            </div>
+
+            <!-- Success Message (Hidden by Default) -->
+            <div id="bookingSuccess" class="booking-success" style="display: none;">
+                <div class="success-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 10 0 1-5.93 9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                </div>
+                <h3>Booking Confirmed!</h3>
+                <p>We look forward to hosting you at <span id="confirmedTableLabel"></span>.</p>
+            </div>
+
+            <div class="modal-actions" id="modalActions">
+                <button class="btn btn-primary" id="confirmBooking" disabled>Confirm Booking</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
